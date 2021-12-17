@@ -34,12 +34,14 @@ namespace AlgorithmVisualization
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.containerpanel = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.toppanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // toppanel
             // 
             this.toppanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.toppanel.Controls.Add(this.button4);
             this.toppanel.Controls.Add(this.button3);
             this.toppanel.Controls.Add(this.button2);
             this.toppanel.Controls.Add(this.button1);
@@ -104,6 +106,19 @@ namespace AlgorithmVisualization
             this.containerpanel.Size = new System.Drawing.Size(1264, 689);
             this.containerpanel.TabIndex = 1;
             // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(597, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(199, 72);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "TEST";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -125,6 +140,7 @@ namespace AlgorithmVisualization
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel containerpanel;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 
