@@ -24,6 +24,7 @@ namespace AlgorithmVisualization
             {
                 activeform.Close();
             }
+
             activeform = childform;
             childform.TopLevel = false;
             childform.FormBorderStyle = FormBorderStyle.None;
@@ -48,6 +49,7 @@ namespace AlgorithmVisualization
         {
             Openchildform(new Forms.FormLinkedList());
         }
+
     }
 
 
