@@ -85,6 +85,6 @@ namespace AlgorithmVisualization.Forms
             addNewNodeToolStripMenuItem_Click(sender, e);
         }
 
-
+       
     }
 }
